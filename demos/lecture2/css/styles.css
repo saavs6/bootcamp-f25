@@ -1,0 +1,14 @@
+body {
+	background-color: #ffd3c0;
+}
+
+h1, p, h2, ul {
+	margin: 0;
+}
+
+.container {
+	color: white;
+	background-color: #fb7237;
+	border-radius: 8px;
+	padding: 8px;
+}
