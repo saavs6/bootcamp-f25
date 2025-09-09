@@ -16,7 +16,7 @@ This exercise involves setting up your GitHub repo in the BoG Dev Bootcamp Organ
 
 1. Go to the [bootcamp-f25](https://github.com/BoG-Dev-Bootcamp-F25/bootcamp-f25) repo on GitHub
 2. Click **Fork** in the top right corner
-3. Change the **Owner** to **BoG-Dev-Bootcamp-S24**
+3. Change the **Owner** to **BoG-Dev-Bootcamp-F25**
 4. Rename the repo `bootcamp-f25-yourname`
 5. Click **Create Fork**
 6. When the new repo has been created, click **Code** and **HTTPS** and copy the text
