@@ -1,0 +1,187 @@
+/* Your Styles Here */
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, #465892, #546DA6, #BBC1C6, #968EAF, #6D5593, #543D7B);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px, 10px;
+    margin: 17px 40px;
+}
+
+.name{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    font-family: 'Courier New',Courier,monospace;
+    font-weight: bold, underline;
+    animation: typing 2s steps(11) forwards, cursor 0.5s step-end infinite;
+}
+
+@keyframes typing{
+    form{width: 0ch;}
+    to{width: 11ch;}
+}
+@keyframes cursor{
+    50%{border-color: transparent}
+}
+
+.year-major{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    animation:typing2 2s steps(30) forwards, cursor 0.5s step-end infinite;
+    animation-delay: 2s;
+}
+
+@keyframes typing2{
+    form{width: 0ch;}
+    to{width: 30ch;}
+}
+.home{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    animation:typing3 2s steps(24) forwards, cursor 0.5s step-end infinite;
+    animation-delay: 4s;
+}
+
+@keyframes typing3{
+    form{width: 0ch;}
+    to{width: 24ch;}
+}
+
+.passion{
+    opacity: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 50%;
+    animation: fadeInAfter 1s forwards;
+    animation-delay: 6s;
+}
+
+@keyframes fadeInAfter{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+    img{
+    width: 250px;
+    border-radius: 10px;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: 0.25s;
+    }
+    .img1{
+        position: relative;
+        top: 120px;
+        right: 35px;
+    }
+    .img2{
+        position: relative;
+        right:300px;
+        top: 30px;
+    }
+    .img3{
+        position: relative;
+        bottom: 150px;
+        right: 35px;
+    }
+    /*
+    a{
+        color: darkred;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+        */
+    
+    .buttons{
+        display: flex;
+        gap: 15px;
+        position: fixed;
+        bottom: 20px;
+        left: 15px;
+        height: 35px
+    }
+    button:hover{
+    background: blue;
+    transform: scale(1.1);
+    transition: 0.25s;
+    }
+    .projects{
+        background: darkblue;
+        color: white;
+        border: none;
+        padding: 10px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .ePortfolio{
+        background: darkblue;
+        color: white;
+        border: none;
+        padding: 10px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .loberButton{
+        background: darkblue;
+        color: white;
+        border: none;
+        padding: 10px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .inputButton{
+        background: darkslategray;
+        color: white;
+        border: none;
+        padding: 10px, 12px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .l{
+        opacity: 0;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        z-index: 9999;
+        display: block;
+    }
+    @keyframes loberFade{
+        0% {opacity: 0;}
+        50% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+    .animate{
+        animation: loberFade 5s
+    }
+    
+    
