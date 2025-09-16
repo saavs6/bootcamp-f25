@@ -11,6 +11,9 @@ button.addEventListener('click', (event) => {
 });
 
 button2.addEventListener('click', async (event) => {
+	// API docs: https://pokeapi.co/docs/v2#pokemon
+	// Challenge: show some more information about this pokemon or even allow
+	//            getting info for any pokemon
 	const response = await fetch('https://pokeapi.co/api/v2/pokemon/azumarill');
 	const data = await response.json();
 	const img = document.createElement('img');
