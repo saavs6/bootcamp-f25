@@ -1,0 +1,51 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appName{
+  display: flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+.d{
+  display: flex;
+  flex-direction: row;
+}
+.identifiers{
+  display:flex;
+  flex-direction:column;
+  padding: 20px;
+}
+.spriteLoc{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 6px solid white;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+.info{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 6px solid white;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 2em;
+}
+.idin{
+  width:45px;
+  height: 35px;
+  font-size: 14pt;
+}
+button{
+  margin:6px;
+}

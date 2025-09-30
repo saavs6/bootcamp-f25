@@ -1,0 +1,29 @@
+.pokemon-sprite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pokemon-image {
+  max-width: 200px;
+  max-height: 200px;
+  image-rendering: pixelated;
+}
+
+.pokemon-name {
+  text-align: center;
+}
+
+.pokemon-name h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.pokemon-name p {
+  margin: 5px 0 0 0;
+  font-size: 1.1em;
+  color: #666;
+  font-weight: bold;
+}
